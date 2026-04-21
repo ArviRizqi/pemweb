@@ -43,4 +43,3 @@ Aplikasi ini dirancang dengan pendekatan modular, di mana setiap bagian (fronten
 
 ---
 
-## 📂 Struktur Folder
