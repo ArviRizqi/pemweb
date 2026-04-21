@@ -1,0 +1,11 @@
+<html>
+ <head>
+ <title>Alert - Kotak Dialog</title>
+ <head>
+ <body>
+ <script language="JavaScript">
+ alert("Perhatian!");
+ alert("Ini adalah contoh dari fungsi Alert.");
+ </script>
+ </body>
+</html>

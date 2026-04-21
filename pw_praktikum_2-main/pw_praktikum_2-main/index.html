@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="table">
+        <tr class="tr">
+            <th class="th" colspan="3">Daftar Buku</th>
+        </tr>
+        <tr class="tr">
+            <td class="td" rowspan="3"><img src="#" alt="Gambar Buku Web Programming" srcset=""></td>
+            <td class="td">judul</td>
+            <td class="td">Web programming</td>
+        </tr>
+        <tr class="tr">
+            <td class="td">Harga</td>
+            <td class="td">Rp. 245.000,00</td>
+        </tr>
+        <tr class="tr">
+            <td class="td">Pengarang</td>
+            <td class="td">John Dean</td>
+        </tr>
+    </table>
+
+    <form action="">
+        <table>
+            <p>Masukan Data diri anda</p>
+            <tbody>
+              <tr>
+                <th>Nama</th>
+                <td><input type="text" name="name" id="" placeholder="Masukan Nama"></td>
+              </tr>
+              <tr>
+                <th>Password</th>
+                <td><input type="password" name="pass" id=""></td>
+              </tr>
+              <tr>
+                <th>Jenis Kelamin</th>
+                <td>
+                  <p><input type="radio" name="jenis_kelamin" value="pria" /> Pria</p>
+                  <p><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</p>
+                </td>
+              </tr>
+              <tr>
+                <th>Hobi</th>
+                <td>
+                  <input type="checkbox" id="membaca" name="hobby" value="membaca" /> <label for="membaca">Membaca</label><br>
+                  <input type="checkbox" id="menulis" name="hobby" value="menulis" /> <label for="menulis">Menulis</label><br>
+                  <input type="checkbox" id="olahraga" name="hobby" value="olahraga" /> <label for="olahraga">Olahraga</label><br>
+                </td>
+              </tr>
+              <tr>
+                <th>Asal Kota</th>
+                <td>
+                  <select id="kota" name="kota">
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Solo">Solo</option>
+                    <option value="Bandung">Bandung</option>
+                    <option value="Yogyakarta">Yogyakarta</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <th>Komentar</th>
+                <td><textarea name="komentar" id="" cols="30" rows="10"></textarea></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"></td>
+              </tr>
+            </tbody>
+          </table>
+          
+    </form>
+</body>
+</html>

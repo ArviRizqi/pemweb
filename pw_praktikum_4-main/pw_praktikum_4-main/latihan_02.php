@@ -1,0 +1,8 @@
+<html>
+ <head>
+ <title>Inline Script</title>
+ <head>
+ <body>
+ <a href="#" onClick="alert('Terima Kasih.');">Klik Dong!</a>
+ </body>
+</html>

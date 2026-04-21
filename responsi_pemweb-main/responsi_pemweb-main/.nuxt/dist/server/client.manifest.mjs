@@ -1,0 +1,1 @@
+export { default } from "file:///E:/My-Project/responsi_pemweb/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

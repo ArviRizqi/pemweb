@@ -1,0 +1,12 @@
+<html>
+ <head>
+ <title>JavaScript Event</title>
+ <head>
+ <body>
+ <a href="#"
+ onMouseOver="alert('Kursor diatas link.');"
+ onMouseOut="alert('Kursor berpindah tempat.');">
+ Klik Donk!
+ </a>
+ </body>
+</html>
